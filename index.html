@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">반갑다! 나는 코코아 클론</h1>
+      <p class="welcome-header__text">
+        코코아 계정이 있다면, 해라 로그인 너의 이메일 또는 핸드폰 번호로.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">계정이나 비밀번호를 잊었나?찾아라.</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>크다 당신의 화면. 고쳐라 작게 갈!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/15514e2154.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
